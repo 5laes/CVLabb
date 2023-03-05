@@ -1,0 +1,37 @@
+.Parent-Container{
+    justify-content: center;
+    display: flex;
+}
+
+.Left-Child-Contianer{
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Right-Child-Container{
+    display: block;
+    width: 40%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 900px){
+    .Parent-Container{
+        display: block;
+    }
+    .Left-Child-Contianer{
+        padding: 0;
+        width: 100%;
+    }
+    .Right-Child-Container{
+        width: 100%;
+    }
+}

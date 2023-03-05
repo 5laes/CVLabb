@@ -1,0 +1,54 @@
+.Blogg-Container{
+    margin: 50px auto;
+    border: 5px solid lightgray;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+}
+
+.Right-Blogg-Container{
+    width: 65%;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.Left-Blogg-Container{
+    display: flex;
+    width: 35%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.Blogg-Title-Container{
+    height: 10%;
+    padding: 2%;
+}
+
+.Title{
+    display: inline;
+    margin: 0;
+}
+
+.Time{
+    display: inline;
+    float: right;
+    margin: 0;
+}
+
+.Blogg-Content-Container{
+    height: 90%;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 1200px){
+    .Blogg-Container{
+        display: block;
+    }
+    .Right-Blogg-Contianer{
+        padding: 0;
+        width: 100%;
+    }
+    .Left-Blogg-Container{
+        width: 100%;
+    }
+}

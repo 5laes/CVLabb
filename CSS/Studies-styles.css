@@ -1,0 +1,26 @@
+.Parent-Container{
+    justify-content: center;
+    display: flex;
+}
+
+.Left-Child-Contianer{
+    font-size: 21px;
+    display: inline-block;
+    background-color: #1e2124;
+    margin: 0;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Right-Child-Container{
+    font-size: 21px;
+    display: inline-block;
+    background-color: #2e3136;
+    margin: 0;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

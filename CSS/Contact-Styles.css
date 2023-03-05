@@ -1,0 +1,18 @@
+.Container{
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.Container a{
+    padding: 15px;
+    Color: black;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.Container a:hover{
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}

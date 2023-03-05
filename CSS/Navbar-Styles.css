@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    background-color: #4a4c51;
+    color: lightgray;
+}
+
+.navbar{
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.navbar_text{
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    padding: 0;
+}
+
+.navbar_text a{
+    padding: 15px;
+    Color: black;
+    text-decoration: none;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.navbar a:hover{
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+.navbar .active{
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        display: block;
+        border: none;
+    }
+    .navbar_text{
+        text-align: left;
+        padding-left: 50px;
+        display: block;
+        margin: 0;
+    }
+    .navbar_text a{
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+}
